@@ -20,8 +20,10 @@
 
 ## 현재 작업 및 계획
 - **GitHub 연동:** 지금까지 작업한 결과물을 GitHub 저장소(`https://github.com/Samuel-Jo/lottoluck`)에 업로드.
+- **Cloudflare 배포 설정:** Cloudflare Pages/Workers Assets 배포를 위한 `wrangler.jsonc` 설정 추가.
 
 ## 진행 단계
 1. `blueprint.md` 생성 및 업데이트 (완료)
-2. 모든 변경 사항 스테이징 및 커밋 (진행 중)
-3. 원격 저장소 추가 및 푸시 (예정)
+2. 모든 변경 사항 스테이징 및 커밋 (완료)
+3. 원격 저장소 추가 및 푸시 (완료)
+4. Cloudflare 배포 설정 추가 (`wrangler.jsonc`) (완료)
