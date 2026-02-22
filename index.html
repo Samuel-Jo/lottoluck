@@ -84,6 +84,26 @@
       </div>
     </div>
 
+    <!-- 하단: 피드백 폼 -->
+    <div class="card" style="margin-top: 24px;">
+      <h3 style="margin:0 0 12px;">💌 의견 보내기</h3>
+      <p style="font-size: 14px;">기능 제안이나 버그 제보 등 소중한 의견을 남겨주세요!</p>
+      
+      <form action="https://formspree.io/f/mnjbgyoa" method="POST" class="feedback-form">
+        <div class="row" style="margin-bottom: 12px;">
+          <div style="flex: 1; min-width: 200px;">
+            <label for="email">이메일 (선택)</label>
+            <input type="email" name="email" id="email" placeholder="email@example.com">
+          </div>
+        </div>
+        <div style="margin-bottom: 12px;">
+          <label for="message">메시지</label>
+          <textarea name="message" id="message" required placeholder="의견을 입력해주세요..." rows="4" style="width: 100%; padding: 10px; border: 1px solid var(--input-border); border-radius: 10px; background: var(--card-bg); color: var(--text-primary); box-sizing: border-box; font-family: inherit; resize: vertical;"></textarea>
+        </div>
+        <button type="submit" class="primary" style="width: 100%;">보내기</button>
+      </form>
+    </div>
+
     <footer>※ 이 페이지는 “로컬에서만” 동작하는 초간단 웹앱입니다. (서버/DB 없음)</footer>
   </div>
 
